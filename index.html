@@ -1,0 +1,58 @@
+<html !doctype>
+	<head>
+		<link href="assets/StyleSheet.css" rel="stylesheet" type="text/css">
+        <link href="assets/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <h1>Movie Collection Gallery</h1>
+        <section id="app">
+            <form id="searchform">
+                <input type="text" id="query"/>
+                <button id="search">Search</button>
+            </form>
+            <div class="list-container">
+                <header>
+                    <h2>Search Result</h2>
+                </header>
+                <div class="result-container">
+                    <section class="container">
+                        <ul id="searchlist" class="list">
+                
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="list-container favorite-container">
+                <header>
+                    <h2>Favorites Gallery</h2>
+                </header>
+                <div class="result-container">
+                    <section class="container">
+                        <ul id="favlist" class="list">
+                
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+	</body>
+</html>
+<script id="item-view" type="text/x-handlebars-template">
+    <div>
+        <img src="{{images.thumbnail}}" alt="image" />
+    </div>
+    <div class="movie-info">
+        <label><h3>Title: {{title}}</h3></label>
+        {{#if favorite}}
+            <button class="destroy">Delete</button>
+            {{else}}
+                <button class="add-movie">Add to Gallery</button>
+        {{/if}}
+    </div>
+    <div class="shuffle">
+        {{#if favorite}}
+            <span></span>
+        {{/if}}
+    </div>
+</script>
+<script data-main="js/app/main" src="js/lib/require.js"></script>
