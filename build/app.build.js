@@ -5,5 +5,5 @@
   name: 'main',
   mainConfigFile: '../js/main.js',
   optimizeCss: 'standard.keepLines',
-  keepBuildDir: true
+  fileExclusionRegExp: /^\.|Microsoft|modernizr|unobtrusive|\.min\.|\.debug\./
 })
