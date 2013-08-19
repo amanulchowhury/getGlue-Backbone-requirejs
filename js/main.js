@@ -4,12 +4,12 @@ require.config({
 
     paths: {
         app: 'app',
-        jquery: 'lib/jQuery',
-        underscore: 'lib/underscore',
-        backbone: 'lib/Backbone',
-        'backbone.localStorage': 'lib/backbone.localStorage',
-        handlebars: 'lib/handlebars',
-        'jquery-ui': 'lib/jquery-ui'
+        jquery: 'lib/jquery/jquery',
+        underscore: 'lib/underscore/underscore',
+        backbone: 'lib/backbone/backbone',
+        'backbone.localStorage': 'lib/backbone.localStorage/backbone.localStorage',
+        handlebars: 'lib/handlebars/handlebars',
+        'jquery-ui': 'lib/jquery-ui/ui/jquery-ui'
     },
 
     shim: {

@@ -1,0 +1,13 @@
+{
+	"name": "getGlue-Backbone-requirejs",
+	"version": "1.0.0",
+	"dependencies": {
+	    "requirejs": "latest",
+	    "jquery": "latest",
+	    "backbone": "latest",
+	    "underscore": "latest",
+	    "handlebars": "latest",
+	    "jquery-ui": "latest",
+	    "backbone.localStorage": "latest"
+  }
+}
