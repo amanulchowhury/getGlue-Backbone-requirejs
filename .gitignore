@@ -1,2 +1,5 @@
 .DS_Store
 js/lib
+dist
+getGlue-Backbone-requirejs.sublime-project
+getGlue-Backbone-requirejs.sublime-workspace
