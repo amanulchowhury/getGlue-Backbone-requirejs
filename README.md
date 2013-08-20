@@ -8,18 +8,18 @@ This is a simple backbone app to search movies and telivision shows and add them
    <li>HTML 5.</li>
    <li>CSS 3.</li>
    <li>require.js for dependency management and build optimizations.</li>
-   <li>bower</li>
-   <li>Handlebars for templating.</li>
+   <li><a href="https://github.com/bower/bower">bower</a></li>
+   <li><a href="http://handlebarsjs.com/">Handlebars</a> for templating.</li>
    <li>getGlue api.</li>
-   <li>jQuery.</li>
-   <li>jQuery UI.</li>
+   <li><a href="http://jquery.com/">jQuery</a>.</li>
+   <li><a href="http://jqueryui.com/">jQuery UI</a>.</li>
 </ul>
 
 
 <h3>To run this app in your local machine.</h3>
 <ul>
    <li>Download the zip.</li>
-   <li>install Node.js and Git.</li>
+   <li>install <a href="http://nodejs.org/">Node.js</a> and <a href="http://git-scm.com/">Git</a>.</li>
    <li>Download bower through NPM.</li>
    <li>run bower from the installed folder</li>
    <li>Open the index.html file in your browser.</li>
